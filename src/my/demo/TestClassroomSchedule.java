@@ -69,7 +69,7 @@ public class TestClassroomSchedule {
 		
 		/*
 		 * Now let's do the constraints.
-		 * The constraint is: A teacher cannot be in the same slot number at a time.
+		 * The constraint is: A teacher cannot be in the same slot.
 		 */
 		
 		for ( int i=0; i < classes.length; i++ ) {
