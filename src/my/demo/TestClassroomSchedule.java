@@ -14,7 +14,7 @@ import org.chocosolver.solver.variables.IntVar;
  */
 
 public class TestClassroomSchedule {
-	
+	 
 	public static void main(String[] args) {
 		
 		/*
