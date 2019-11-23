@@ -43,6 +43,10 @@ Kelas 1 boleh diletakkan ke dalam semua slot-slot tersebut
 Kelas 2 cuma boleh diletakkan ke dalam slot-slot ini: 5, 6, 7 dan 10.  
 .. dan seterusnya  
 
+Di sini, kita akan menggunakan CP untuk mencari manakah slot yang sesuai untuk setiap kelas-kelas C1 hingga C5.  Kita telah menyatakan slot-slot ini sebagai nilai integer.  Jadi, kita menyatakan IntVar yang mewakli unknown (iaitu nilai yang akan dicari oleh Solver) untuk setiap kelas-kelas.  
+
+
+
 
 
 
