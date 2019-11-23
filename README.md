@@ -4,7 +4,7 @@
 Ini ialah contoh penggunaan CP dalam penjanaan jadual waktu untuk sekolah (dan universiti/kolej).
 
 
-Dalam contoh ini, kita mempunyai 10 aktiviti kelas, yang kita namakan seperti berikut:
+Dalam contoh ini, kita mempunyai 5 aktiviti kelas, yang kita namakan seperti berikut:
 
 C1 - Kelas Aktiviti 1   
 C2 - Kelas Aktiviti 2  
@@ -23,6 +23,27 @@ Kelas C2 - diberikan kepada pengajar T2
 Kelas C3 - diberikan kepada pengajar T3  
 Kelas C4 - diberikan bersama kepada pengajar T3 dan T2  
 Kelas C5 - diberikan kepada pengajar T1  
+
+
+Untuk contoh ini, kita mempunyai 10 slot masa di mana kelas-kelas ini akan diletakkan.  Slot-slot masa ini dinyatakan sebagai integer dari 1 hingga 10.
+
+Slot-slot masa ini boleh dirujuk sebagai suatu tempoh suatu yang mempunyai masa mula dan masa tamat.  Contohnya:
+
+Slot 1 - dari pukul 9.00 AM hingga 10.00 AM.  
+Slot 2 - dari pukul 10.00 Am hingga 11.00 AM.  
+Slot 3 - dari pukul 11.00 AM hingga 12.00 PM.  
+Slot 4 - dari pukul 12.00 PM hingga 1.00 PM.  
+Slot 5 - dari pukul 2.00 PM hingga 3.00 PM.  
+.. dan seterusnya  
+
+
+Untuk setiap aktiviti, tidak kesemua slot-slot masa tersebut adalah bersesuaian dengannya.  Mungkin suatu aktiviti cuma boleh diletakkan dalam slot-slot tertentu, dan kita lakukan ini dalam contoh ini.
+
+Kelas 1 boleh diletakkan ke dalam semua slot-slot tersebut    
+Kelas 2 cuma boleh diletakkan ke dalam slot-slot ini: 5, 6, 7 dan 10.  
+.. dan seterusnya  
+
+
 
 
 
