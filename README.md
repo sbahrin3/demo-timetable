@@ -1,5 +1,4 @@
-# demo-timetable
-Class Scheduling sample code with Constraint Programming (CP)
+# demo-timetable - Class Scheduling sample code with Constraint Programming (CP)
 
 
 Ini ialah contoh penggunaan CP dalam penjanaan jadual waktu untuk sekolah (dan universiti/kolej).
