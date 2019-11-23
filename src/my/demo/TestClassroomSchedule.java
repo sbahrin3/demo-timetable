@@ -61,10 +61,15 @@ public class TestClassroomSchedule {
 		 * Let's put the teachers into the activites on which they are assigned to
 		 */
 		Map<String, String[]> classTeacher = new HashMap<String, String[]>();
+		//Class C1 is assigned to two teachers, T1 and T2
 		classTeacher.put(classes[0], new String[]{"T1", "T2"});
+		//Teacher T2 is also assigned to class C2
 		classTeacher.put(classes[1], new String[]{"T2"});
+		//Teacher T3 is assigned to class C3
 		classTeacher.put(classes[2], new String[]{"T3"});
+		//Teacher T3 and also T2 are both assigned to class C4
 		classTeacher.put(classes[3], new String[]{"T3", "T2"});
+		//And class C5 is assigned to Teacher T1
 		classTeacher.put(classes[4], new String[]{"T1"});
 		
 		/*
