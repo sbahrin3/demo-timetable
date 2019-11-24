@@ -43,9 +43,12 @@ Kelas 1 boleh diletakkan ke dalam semua slot-slot tersebut
 Kelas 2 cuma boleh diletakkan ke dalam slot-slot ini: 5, 6, 7 dan 10.  
 .. dan seterusnya  
 
-Di sini, kita akan menggunakan CP untuk mencari manakah slot yang sesuai untuk setiap kelas-kelas C1 hingga C5.  Kita telah menyatakan slot-slot ini sebagai nilai integer.  Jadi, kita menyatakan IntVar yang mewakli unknown (iaitu nilai yang akan dicari oleh Solver) untuk setiap kelas-kelas.  
+Di sini, kita akan menggunakan CP untuk mencari manakah slot yang sesuai untuk setiap kelas-kelas C1 hingga C5.  Kita telah menyatakan slot-slot ini sebagai nilai integer.  Jadi, kita menyatakan IntVar yang mewakli unknown, iaitu nilai yang akan dicari oleh Solver, untuk setiap kelas-kelas.  
 
 
+Terima Kasih.  Kalau ada masa saya sambung.
+
+** Note ** : Contoh kod di sini adalah tidak object oriented.  Kalau kita nak projek timetable sebenar, buatlah secara object oriented.  Kita define lah semua entiti terlibat dengan java class, dan buatlah constraint sebagai properties/attributes di dalam java class.
 
 
 
